@@ -57,10 +57,6 @@ public class CheatActivity extends ActionBarActivity {
                 setAnswerShownResult(true);
             }
         }
-        else {
-            setAnswerShownResult(false);
-            //Log.d(TAG, "set answershown False");
-        }
         //Log.d(TAG, "Finished looking for saved instances");
 
         mShowAnswer = (Button)findViewById(R.id.showAnswerButton);
